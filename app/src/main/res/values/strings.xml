@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">App01 aula 30set</string>
+    <string name="texto_saudacao">Hello World! Ola mundo</string>
+    <string name="texto_resultado">resultado...</string>
+    <string name="texto_saudacao_eng_inf">Olá Eng Informática!</string>
+    <string name="texto_a_calcular">A calcular...</string>
+    <string name="texto_calcular">Calcular</string>
+    <string name="texto_hint_introduza_">nota?</string>
+    <!-- <string name="texto_num_notas">%d nota!</string> -->
+
+    <plurals name="texto_num_notas">
+        <!--
+             As a developer, you should always supply "one" and "other"
+             strings. Your translators will know which strings are actually
+             needed for their language. Always include %d in "one" because
+             translators will need to use %d for languages where "one"
+             doesn't mean 1 (as explained above).
+          -->
+        <item quantity="one">%1$d nota!</item>
+        <item quantity="other">%1$d notas!</item>
+    </plurals>
+
+    <string name="texto_inicial_media" >media...  </string>
+    <string name="texto_resultado_media" >media: %1$f</string>
+    <string name="texto_mensagem_nota">nova nota inserida!</string>
+</resources>
